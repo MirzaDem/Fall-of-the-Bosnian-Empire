@@ -6,13 +6,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = ROM
-		controller = ROM
+		owner = HUN
+		controller = HUN
 
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = ROM
+		add_core_of = HUN
 		add_core_of = SER
 	}
 
