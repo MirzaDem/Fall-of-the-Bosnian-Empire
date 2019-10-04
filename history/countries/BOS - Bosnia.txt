@@ -49,3 +49,14 @@ set_popularities = {
 	monarchist = 100
 }
 
+create_country_leader = {
+	name = "Amar II"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "Portrait_Amar.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchist
+	traits = {
+		#
+	}
+}
+
