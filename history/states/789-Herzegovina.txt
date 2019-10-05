@@ -1,0 +1,21 @@
+state={
+	id=789
+	name="STATE_789"
+
+	state_category = city
+
+	history={
+        owner = BOS
+
+        add_core_of = BOS
+        buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		953 6942 9894 11845 11872 
+	}
+	manpower= 44368
+	buildings_max_level_factor=1.000
+}
