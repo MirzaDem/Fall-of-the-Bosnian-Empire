@@ -1,11 +1,7 @@
-﻿capital = 104
+﻿capital = 29
 
-oob = "BOS_1936"
+OOB = "BFT_1936"
 
-set_research_slots = 3
-
-# Starting tech
-# clone of Yugoslavia
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -34,9 +30,7 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	
 }
-
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -44,60 +38,55 @@ if = {
 	set_technology = {
 		early_destroyer = 1
 		early_light_cruiser = 1
+		early_heavy_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
+	set_naval_oob = "BFT_1936_naval_legacy"
 }
 if = {
 	limit = {
-		has_dlc = "Man the Guns"
+		 has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		early_ship_hull_submarine = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
 		basic_battery = 1
 		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		mtg_transport = 1
 	}
+	set_naval_oob = "BFT_1936_naval"
 }
 
 set_politics = {
-	ruling_party = monarchist
-	last_election = "1935.2.8"
-	elections_allowed = no
-}	
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
 
 set_popularities = {
-	monarchist = 100
+	democratic = 100
 }
 
-add_ideas = {
-    extensive_conscription
-}
+set_convoys = 5
 
 create_country_leader = {
-	name = "Amar II"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Amar.dds"
+	name = "Augustin Aguillard"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Augustin.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchist
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ALB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = ALB
-	}
-}
 

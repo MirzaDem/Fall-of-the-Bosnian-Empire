@@ -78,7 +78,7 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 161  24  240 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
@@ -477,6 +477,10 @@ CSA = {
 }
 SGC = {
 	color = rgb { 243 193 193  }
+	color_ui = rgb { 186 205 219 }
+}
+BFT = {
+	color = rgb { 78 91 182  }
 	color_ui = rgb { 186 205 219 }
 }
 D01 = {

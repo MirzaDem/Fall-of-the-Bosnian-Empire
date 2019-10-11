@@ -1,0 +1,22 @@
+state={
+	id=791
+	name="STATE_791"
+
+	state_category = city
+
+	history={
+        owner = GRE
+
+        add_core_of = GRE
+        buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		914 3448 3884 6900 11767 
+	}
+	manpower= 256182
+	buildings_max_level_factor=1.000
+}

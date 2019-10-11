@@ -212,6 +212,7 @@
  BRA_democratic_party_long:1 "União Democrática Brasileira"
  BRA_neutrality_party:0 "Estado Novo"
  BRA_neutrality_party_long:0 "Estado Novo"
+ TUR_monarchist_party:0 "House of Osman"
  TUR_fascism_party:0 "Millet Partisi"
  TUR_fascism_party_long:0 "Millet Partisi"
  TUR_communism_party:0 "TKP"

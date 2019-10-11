@@ -1,0 +1,19 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Royal North French Navy"			
+		naval_base = 575 
+		task_force = {
+			name = "North French Squadron"
+			location = 575 
+			ship = { name = "HMAS France" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "France Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
+			
+		}				
+	}
+}
+
+
