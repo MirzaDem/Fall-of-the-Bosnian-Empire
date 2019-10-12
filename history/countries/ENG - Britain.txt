@@ -113,8 +113,13 @@ if = {
 		target = BFT
 		autonomous_state = autonomy_colony
 	}
+	set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_colony
+	}
 	else = {
 		puppet = BFT
+		puppet = BEL
 	}
 }	
 	

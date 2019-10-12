@@ -483,6 +483,10 @@ BFT = {
 	color = rgb { 78 91 182  }
 	color_ui = rgb { 186 205 219 }
 }
+NAC = {
+	color = rgb { 30 102 39  }
+	color_ui = rgb { 186 205 219 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
